@@ -1,0 +1,62 @@
+﻿# Secrets / auth
+.env
+.env.*
+.auth/
+credentials/
+secrets/
+*.token
+*.tokens
+*.cookie
+*.cookies
+
+# Captures / media
+*.h264
+*.bin
+*.mp4
+*.mkv
+*.pcap
+*.pcapng
+*.jsonl
+
+# Vendor / extracted / decompiled material
+*.apk
+*.apks
+*.aab
+*.apkm
+*.zip
+alexa-*/
+alexa-src/
+decompiled/
+jadx*/
+dump/
+captures/
+
+# Private device/session data
+devices*.json
+*session*raw*
+*session*redacted*
+echo-show-*.json
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+frida-output*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration
+config.local.json
+*.local.json
+
+# Research workspace artifacts
+*-core.txt
+*-path.txt
+*-analysis.txt
+*-critical.txt
+*-summary.txt
